@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Atividade Avaliativa FrontEnd</title>
+</head>
+
+<body>
+    <h1>Atividade Avaliativa Front End</h1>
+    <a href="sobre.html" target="_blank">Ir para sobre mim</a>
+    <br>
+    <a href="https://www.w3schools.com/html/" target="_blank">Documentação HTML</a>
+
+    <div id="lista">
+        <ul id="paises_desordenados">
+            <li>Brasil</li>
+            <li>Estados Unidos</li>
+            <li>Inglaterra</li>
+        </ul>
+        <ol id="paises_ordenados">
+            <li>Europa</li>
+            <li>França</li>
+            <li>Japão</li>
+        </ol>
+    </div>
+
+    <br>
+
+    <div id="imagem">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Google_Images_2015_logo.svg/1280px-Google_Images_2015_logo.svg.png"
+            width="200" height="100" alt="Imagem do Google">
+    </div>
+
+    <br>
+
+    <div id="inputs">
+        <fieldset>
+            <label for="nome">Escreva seu Nome: </label>
+            <input type="text" id="nome" name="usuario_nome" placeholder="Nome Completo" required />
+
+            <br>
+
+            <label for="email">Escreva seu Email: </label>
+            <input type="email" id="email" name="usuario_email" placeholder="Endereço de E-mail" required />
+
+            <br>
+
+            <label for="data_nascimento">Qual sua data de nascimento?</label>
+            <input type="date" id="data_nascimento" name="usuario_data_nascimento" required />
+            <button>Enviar</button>
+        </fieldset>
+    </div>
+
+    <br>
+
+    <div id="ref">
+        <a href="#paises_ordenados">Paises Ordenados</a>
+    </div>
+
+    <br>
+
+    <div id="tabela">
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Idade</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Maicon</td>
+                    <td>23</td>
+                    <td>maicon@email.com</td>
+                </tr>
+                <tr>
+                    <td>Lucas</td>
+                    <td>26</td>
+                    <td>lucas@email.com</td>
+                </tr>
+                <tr>
+                    <td>Carol</td>
+                    <td>22</td>
+                    <td>carol@email.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <br>
+
+    <div id="video">
+        <video controls src="assets/Video.mp4">
+            <track src="assets/Legenda.vtt.txt" kind="subtitles" srclang="pt" label="Português">
+    </div>
+
+    <br>
+
+    <div id="audio">
+        <audio controls src="assets/kontraa-water-afro-pop-music-445661.mp3">
+    </div>
+
+    <br>
+
+    <div id="formulario">
+        <fieldset>
+
+            <h2>Formulário de Cadastro</h2>
+
+            <label>Nome:</label><br>
+            <input type="text" name="nome" required><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" name="email" required><br><br>
+
+            <label>Senha:</label><br>
+            <input type="password" name="senha" required minlength="6"><br><br>
+
+            <label>Idade:</label><br>
+            <input type="number" name="idade" min="0" max="120"><br><br>
+
+            <label>Sexo:</label><br>
+            <input type="radio" name="sexo" value="masculino"> Masculino<br>
+            <input type="radio" name="sexo" value="feminino"> Feminino<br><br>
+
+            <label>Interesses:</label><br>
+            <input type="checkbox" name="interesse" value="tecnologia"> Tecnologia<br>
+            <input type="checkbox" name="interesse" value="jogos"> Jogos<br>
+            <input type="checkbox" name="interesse" value="musica"> Música<br><br>
+
+            <label>Mensagem:</label><br>
+            <textarea name="mensagem" rows="4" cols="30"></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </fieldset>
+    </div>
+
+    <div id="galeria_img">
+        <img src="https://embratur.com.br/wp-content/uploads/2022/07/Embratur-Brasil-ultrapassa-marca-de-1-milhao-de-turistas-estrangeiros-recebidos-pela-primeira-vez-desde-2020-1.png"
+            alt="">
+        <img src="https://img.freepik.com/fotos-gratis/closeup-tiro-de-uma-linda-borboleta-com-texturas-interessantes-em-uma-flor-de-petalas-de-laranja_181624-7640.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20240522/pngtree-abstract-cloudy-background-beautiful-natural-streaks-of-sky-and-clouds-red-image_15684333.jpg"
+            alt="">
+        <img src="https://png.pngtree.com/thumb_back/fh260/background/20230804/pngtree-flowers-of-cosmos-beautiful-and-beautiful-purple-flowers-spring-green-field-image_13001920.jpg"
+            alt="">
+    </div>
+
+    <br>
+
+    <div id="icones">
+        <a href="https://www.instagram.com/maicon.nezy/" target="_blank">
+            <img src="https://images.icon-icons.com/1269/PNG/512/1497553304-104_84834.png" height="50" width="50">
+        </a><br>
+        <a href="https://www.linkedin.com/in/maicon-muniz-a78bb0145/" target="_blank">
+            <img src="https://static.vecteezy.com/system/resources/previews/018/930/480/non_2x/linkedin-logo-linkedin-icon-transparent-free-png.png"
+                height="50" width="50">
+        </a>
+    </div>
+</body>
+
+</html>
